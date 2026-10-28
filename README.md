@@ -67,15 +67,9 @@ dog-cat-classification/
 The following validation results are recorded in the notebook after restoring the best weights:
 
 | Model | Accuracy | Precision | Recall | Loss |
-| --- | ---: | ---: | ---: | ---: |
-| MLP | 63.96% | 63.33% | 66.32% | 0.6419 |
+| --- | ---: | ---: | ---: | ---: || MLP | 63.96% | 63.33% | 66.32% | 0.6419 |
 | VGG16 | 98.28% | 97.56% | 99.04% | 0.0506 |
 | ResNet18 | 98.92% | 99.04% | 98.80% | 0.0352 |
 
 ResNet18 has the highest recorded validation accuracy. These numbers come from saved notebook outputs, not a fresh reproduction. Although the notebook prepares a test split, it does not evaluate the models on that split; these are not test-set results. The Gradio percentages represent prediction probabilities, not model accuracy.
 
-## Reports
-
-See [the project notebook](dog-cat-classification.ipynb) for the model architectures, training logs, validation outputs, and interactive demo implementation. No separate report is included.
-
-The README section structure follows [Sino-Nom Recognition](https://github.com/huynq2k4/Sino-Nom-recognition); the project description and results describe this repository.

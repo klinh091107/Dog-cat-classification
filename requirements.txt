@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow
+keras-hub
+scikit-learn
+gradio
+jupyterlab
+ipykernel
